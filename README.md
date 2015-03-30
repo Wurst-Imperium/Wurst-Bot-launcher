@@ -1,2 +1,2 @@
-# Wurst-Bot-launcher
-Basic launcher and libraries for Wurst-Bot
+# Wurst-Bot launcher
+A basic launcher for Wurst-Bot
