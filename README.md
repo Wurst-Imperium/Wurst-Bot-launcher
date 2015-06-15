@@ -10,6 +10,6 @@ Getting an error saying that `java` is not a known command? [Fix your PATH varia
 ##### OSX #####
 
 To run open a terminal and type
-`chmod +x ` then drag and drop the file into the terminal and press ENTER (dont forget the space after the x)
+`chmod +x ` then drag and drop startOSX into the terminal and press ENTER (dont forget the space after the x)
 
-finally Right-click > Open With > Terminal
+finally Right-click startOSX > Open With > Terminal
