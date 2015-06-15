@@ -24,7 +24,7 @@ function wurstJAR() {
 	echo -n "Processing Wurst jar..     "
 	if [ ! -f "~/Library/Application\ Support/minecraft/versions/Wurst/Wurst-Bot/Wurst.jar " ]
 		then
-		cp ~/Library/Application\ Support/minecraft/versions/Wurst/Wurst.jar ~/Library/Application\ Support/minecraft/versions/Wurst/Wurst-Bot/Wurst.jar 
+		cp ~/Library/Application\ Support/minecraft/versions/Wurst/Wurst.jar ~/Library/Application\ Support/minecraft/versions/Wurst/Wurst-Bot/Wurst.jar
 		if [ $? = 0 ]
 			then
 			echo "[OK]"
@@ -39,7 +39,7 @@ function wurstJAR() {
 		echo "[OK]"
 		return 0
 	fi	}
-	
+
 function cleanUP() {
 	if [ ! -f "~/Library/Application\ Support/minecraft/versions/Wurst/Wurst-Bot/Wurst-Bot.jar" ]
 		then
@@ -49,7 +49,7 @@ function cleanUP() {
 	echo "Cleaning Up.."
 	sleep 3
 	}
-	
+
 echo Starting Wurst-Bot launcher..
 	Sleep 4
 	clear
@@ -57,8 +57,3 @@ echo Starting Wurst-Bot launcher..
 	wurstJAR
 cleanUP
 java -jar ~/Library/Application\ Support/minecraft/versions/Wurst/Wurst-Bot/Wurst-Bot.jar
-		
-		
-		
-		
-	
