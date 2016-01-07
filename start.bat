@@ -6,7 +6,7 @@ if exist ..\..\1.8\1.8.jar (
 xcopy ..\..\1.8\1.8.jar Wurst-Bot_lib /Y
 ) else (
 echo ERROR! Vanilla JAR file could not be found.
-echo Please put a copy of the Minecraft 1.8 JAR file into the WurstBot_lib folder and continue.
+echo Please put a copy of the Minecraft 1.8 JAR file into the Wurst-Bot_lib folder and continue.
 pause
 cls
 goto vanillaJAR
